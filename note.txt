@@ -1,0 +1,10 @@
+
+pipenv --three or pipenv shell
+source activate env
+install flask and flask-sqlalchemy
+
+then lets make our database
+go to pyhton shell
+from app import db
+then 
+db.create_all() and this should ceated a file called test.db. 
